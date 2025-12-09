@@ -14,6 +14,7 @@ class Solution:
                 bulls += 1
                 count[guess[i]] -= 1 
         for i in range(n):
+
             if secret[i] != guess[i] and guess[i] in count and count[guess[i]] > 0:
                 cows += 1
                 count[guess[i]] -= 1 
