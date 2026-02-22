@@ -20,4 +20,3 @@ class Solution:
                 count[guess[i]] -= 1 
         return f"{bulls}A{cows}B"
 
-
