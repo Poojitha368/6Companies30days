@@ -19,3 +19,4 @@ class Solution:
                 cows += 1
                 count[guess[i]] -= 1 
         return f"{bulls}A{cows}B"
+        
